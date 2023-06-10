@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     "eslint-config-standard",
+    "eslint:recommended",
   ],
   parserOptions: {
     ecmaVersion: "latest",
@@ -21,6 +22,30 @@ module.exports = {
       "anonymous": "always",
       "named": "never",
       "asyncArrow": "always"
-    }]
+    }],
+    "no-await-in-loop": "error",
+    "no-template-curly-in-string": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "no-floating-decimal": "error",
+    "max-lines": ["error", {
+      "max": 500,
+      "skipBlankLines": true,
+      "skipComments": true
+    }],
+    "max-lines-per-function": ["error", {
+      "max": 250,
+      "skipBlankLines": true,
+      "skipComments": true
+    }],
+    "no-unneeded-ternary": "error",
+    "no-script-url": "error",
+    "no-sequences": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-exponentiation-operator": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "indent": ["error", 2]
   }
 }
