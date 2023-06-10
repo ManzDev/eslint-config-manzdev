@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-manzdev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "package",
+    "rules"
+  ],
+  "author": "ManzDev",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8"
+  }
+}
