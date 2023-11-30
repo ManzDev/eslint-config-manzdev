@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-manzdev",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -12,13 +12,13 @@
   "author": "ManzDev",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.1.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-n": "16.3.1",
+    "eslint-plugin-promise": "6.1.1"
   },
   "peerDependencies": {
-    "eslint": "^8.42.0",
-    "prettier": "^2.8.8"
+    "eslint": "8.54.0",
+    "prettier": "3.1.1"
   }
 }
