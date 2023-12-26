@@ -7,7 +7,8 @@ module.exports = {
     "eslint-config-standard",
     "eslint:recommended",
     "plugin:require-extensions/recommended",
-    "plugin:sonarjs/recommended"
+    "plugin:sonarjs/recommended",
+    "plugin:ecmascript-compat/recommended"
   ],
   parserOptions: {
     ecmaVersion: "latest",
@@ -16,7 +17,8 @@ module.exports = {
   plugins: [
     "import",
     "require-extensions",
-    "sonarjs"
+    "sonarjs",
+    "ecmascript-compat"
   ],
   rules: {
     "quotes": ["error", "double"],
