@@ -6,13 +6,17 @@ module.exports = {
   extends: [
     "eslint-config-standard",
     "eslint:recommended",
+    "plugin:require-extensions/recommended",
+    "plugin:sonarjs/recommended"
   ],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module"
   },
   plugins: [
-    "import"
+    "import",
+    "require-extensions",
+    "sonarjs"
   ],
   rules: {
     "quotes": ["error", "double"],

@@ -23,6 +23,7 @@ https://manz.dev/software/mkweb
 - ✨ Convierte a `const` siempre que no reasignes la variable
 - ✨ Prefiere `...args` sobre `arguments`
 - ✨ Indentación: `2` espacios
+- ✨ Obliga a escribir el `.js` en los `import` con rutas relativas
 
 ## Instalación
 
