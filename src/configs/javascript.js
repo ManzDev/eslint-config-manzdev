@@ -67,15 +67,19 @@ export default {
     "template-curly-spacing": "error",
 
     // WebComponents
+    "wc/attach-shadow-constructor": "error",
     "wc/define-tag-after-class-definition": "error",
     "wc/expose-class-on-global": "off",
-    "wc/file-name-matches-element": "error",
-    "wc/guard-define-call": "error",
+    "wc/file-name-matches-element": "off",
+    "wc/guard-define-call": "off",
     "wc/max-elements-per-file": "error",
-    "wc/no-constructor": "error",
+    "wc/no-constructor": "off",
+    "wc/no-constructor-attributes": "error",
+    "wc/no-invalid-element-name": "error",
     "wc/no-exports-with-element": "error",
     "wc/no-method-prefixed-with-on": "error",
     "wc/tag-name-matches-class": "error",
+    "wc/no-typos": "error",
 
     ...regexp.configs["flat/recommended"].rules,
 

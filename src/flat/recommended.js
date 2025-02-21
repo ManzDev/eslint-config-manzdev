@@ -1,3 +1,4 @@
+import deMorgan from "eslint-plugin-de-morgan";
 import neostandard from "neostandard";
 
 // Configs
@@ -8,7 +9,6 @@ import jestConfig from "../configs/jest.js";
 import jsonConfig from "../configs/json.js";
 import packageJson from "../configs/packageJson.js";
 import yamlConfig from "../configs/yaml.js";
-import deMorgan from "eslint-plugin-de-morgan";
 
 export default [
   deMorgan.configs.recommended,
