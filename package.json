@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-manzdev",
-  "version": "1.0.13-alpha",
+  "version": "1.0.14-alpha",
   "description": "Linter for JS vanilla projects",
   "keywords": [
     "eslint",
